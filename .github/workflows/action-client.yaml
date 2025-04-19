@@ -38,6 +38,7 @@ jobs:
       with:
         repository: jumpking7/deploy-manifests
         token: ${{ secrets.PAT }}
+        path: deploy-manifests
 
     - name: Install yq
       run: sudo snap install yq
